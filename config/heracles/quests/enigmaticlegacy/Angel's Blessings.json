@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Spellstones"
+  ],
+  "tasks": {
+    "angel": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:angel_blessing",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Angel's Blessing",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:angel_blessing",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Uncraftable"
+    },
+    "description": [
+      "Angel's Blessing makes your projectiles better and others much worse. It also negates fall damage and collision damage. It's active ability lets you dash in the direction you're facing."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -250,
+          -125
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:angel_blessing",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Angel's Blessing"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

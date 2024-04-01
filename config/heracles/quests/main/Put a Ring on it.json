@@ -1,0 +1,86 @@
+{
+  "dependencies": [
+    "Welcome"
+  ],
+  "tasks": {
+    "ring": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:cursed_ring",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "My precious!!!",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:cursed_ring",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "amulet": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:enigmatic_amulet",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Better than Corail?",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:enigmatic_amulet",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "beef": {
+      "title": "Steak",
+      "icon": {
+        "item": {
+          "id": "minecraft:cooked_beef",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:cooked_beef",
+        "count": 10
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Put a Ring on it"
+    },
+    "description": [
+      "One of the main mods of **Maul The Odds**, is Enigmatic Legacy. When you spawn in you should have 2 items, Ring of Seven Curses and Enigmatic Amulet. The Ring gives 7 curses and 7 blessings. You can read it by holding shift while looking at in your inventory. But the curses will make you take more damage, give less damage, make every neutral mob hostile, and will make it so you can't sleep. The blessings will give you; more looting, more fortune, more EXP, better enchants and drops, and lets you open an Echest with default I. The Amulet will keep all the items you died into one safe place, like how graves work."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          0,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:cursed_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Enigmatic Legacy "
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Spellstones"
+  ],
+  "tasks": {
+    "heart": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:enigmatic_item",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Heart of Creation",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:enigmatic_item",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This isn't fake immortality, it will straight up make you unkillable. Now how do we obtain it?"
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -200,
+          -75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:enigmatic_item",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Heart of Creation"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

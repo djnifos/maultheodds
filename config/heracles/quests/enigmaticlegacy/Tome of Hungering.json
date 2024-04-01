@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Guides and Tomes"
+  ],
+  "tasks": {
+    "tome of hungering": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:enchantment_transposer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Tome of Hungering Knowledge",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:enchantment_transposer",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Tome of Hungering Knowledge works as an enchantment extrator. When you combine it with an enchanted item in crafting table, it'll move the enchantments and leave you with a boring weapon and an enchanted book. (FYI curses won't be moved with it)."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -40,
+          -15
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:enchantment_transposer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tome of Hungering Knowledge"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

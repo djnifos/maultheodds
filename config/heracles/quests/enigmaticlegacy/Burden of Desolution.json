@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Exquisite Ring"
+  ],
+  "tasks": {
+    "burden": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:desolation_ring",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "The Burden of Desolation",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:desolation_ring",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Burden of Desolution is a very powerful and dangerous Ring. When worn and used it'll prevent most neutral mobs from spawning (Endermen, Iron Golems, and Piglins). But in order to use it you need to 1. make it and 2. wear the Ring of Seven Curses for a long time. The ring will tell you how much time you've had it on for. "
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          50,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:desolation_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Burden of Desolution"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

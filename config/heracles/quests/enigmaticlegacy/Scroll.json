@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Scrolls"
+  ],
+  "tasks": {
+    "scroll": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:escape_scroll",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Scroll of Postmortal Recall",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:escape_scroll",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Scroll of Postmortal Recall is a passive scroll. Once equipped when you die your items will go to your respawn anchor in the nether, bed in overworld, or spawn but the scroll will stay at your death spot."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -165,
+          -15
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:escape_scroll",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Scroll of Postmortal Recall"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "start"
+  ],
+  "tasks": {
+    "eth": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:etherium_ore",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Etherium Ore",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:etherium_ore",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Enigmatic Legacy isn't just for magical items, there's also some tools, weapons, and armor you can make. First you'll need Etherium which can be found in chests as ore."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -100,
+          25
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:etherium_ingot",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Weapons"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

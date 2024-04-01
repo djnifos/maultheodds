@@ -1,0 +1,107 @@
+{
+  "dependencies": [
+    "Item Generation"
+  ],
+  "tasks": {
+    "lucky block": {
+      "type": "heracles:item",
+      "item": "lucky:lucky_block",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Lucky Block",
+      "icon": {
+        "item": {
+          "id": "lucky:lucky_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    },
+    "chance": {
+      "type": "heracles:item",
+      "item": "chancecubes:chance_cube",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Chance Cubes",
+      "icon": {
+        "item": {
+          "id": "chancecubes:chance_cube",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "lucky": {
+      "title": "Luck Potion",
+      "icon": {
+        "item": {
+          "id": "lucky:lucky_potion",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lucky:lucky_potion",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "chance": {
+      "title": "Chance",
+      "icon": {
+        "item": {
+          "id": "chancecubes:chance_pendant_tier1",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "chancecubes:chance_pendant_tier1",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Is this considered gambling?"
+    },
+    "description": [
+      "If you like gambling then these would be perfect for you. Chance Cubes and Lucky Blocks both can give you a random assortment of blocks, items, or death. Hopefully luck and chance are on your side."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          50,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "chancecubes:chance_cube",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Lucky Block and Chance Cubes"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

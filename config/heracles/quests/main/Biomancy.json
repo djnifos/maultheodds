@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Machines and Tech"
+  ],
+  "tasks": {
+    "flesh": {
+      "type": "heracles:item",
+      "item": "biomancy:living_flesh",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Flesh",
+      "icon": {
+        "item": {
+          "id": "biomancy:living_flesh",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "flesh": {
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "biomancy:flesh_bits",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "biomancy:flesh_bits",
+        "count": 5
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Feed the machine... literally"
+    },
+    "description": [
+      "Biomancy 2 is another Machine mod but it uses something different, flesh and parts of living or undead creatures. You'll use lots of parts to feed machines and work forward through the mod. Hope you have a tough stomach!"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -50,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "biomancy:living_flesh",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Biomancy"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "start": {
+      "title": "Start of Enigmatic Legacy",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:the_acknowledgment",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "book": {
+      "title": "The Acknowledgment",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:the_acknowledgment",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "enigmaticlegacy:the_acknowledgment",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Start here"
+    },
+    "description": [
+      "Welcome to Enigmatic Legacy! There's a guidebook but its a little empty so I'll have to fill you in. Enigmatic Legacy brings many new weapons, rings, and curses to help make your world more fun. Most are craftable or can be found through exploring. Once you find or craft some it will fill your guidebook. You can also hold shift while looking at them to see a description on the item."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -100,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:the_acknowledgment",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Engimatic Legacy"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

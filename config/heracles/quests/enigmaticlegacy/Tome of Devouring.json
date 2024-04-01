@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "ring",
+    "Tome of Hungering"
+  ],
+  "tasks": {
+    "tome of devour": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:curse_transposer",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Tome of Devoured Malignancy",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:curse_transposer",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Tome of Devoured Malginancy does the opposite. It will only take off curses from enchanted items. You will need the Ring of Seven Curses to use it."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -15,
+          11
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:curse_transposer",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Tome of Devoured Malginancy"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

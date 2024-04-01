@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Spellstones"
+  ],
+  "tasks": {
+    "blaze": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:blazing_core",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Blazing Core",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:blazing_core",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Uncraftable"
+    },
+    "description": [
+      "Blazing Core negates fire damage and some lava damage, it also helps you see better in lava. Also negative effects will last much shorter. Very helpful for nether adventures!"
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -225,
+          -125
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:blazing_core",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Blazing Core"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

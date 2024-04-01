@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Put a Ring on it"
+  ],
+  "tasks": {
+    "adventure": {
+      "title": "Exploring",
+      "icon": {
+        "item": {
+          "id": "explorerscompass:explorerscompass",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Now this is what this modpack is for, exploring and killing things! There's tons of Dungeons, Dimensions, and places to explore and many different enemies to kill. Sure you can handle it all?"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          50,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "the_forgotten_dimensions:void_blade",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Adventure time"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

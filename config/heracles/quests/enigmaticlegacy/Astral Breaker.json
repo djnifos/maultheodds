@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "Etherium Weapons"
+  ],
+  "tasks": {
+    "Astral": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:astral_breaker",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Astral Breaker",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:astral_breaker",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Astral Breaker works as an Etherium Paxel, it can break all blocks regular tools can, (not bedrock). While the Waraxe does more damage the Astral Breaker definitely looks much cooler!"
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -100,
+          75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:astral_breaker",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Astral Breaker"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

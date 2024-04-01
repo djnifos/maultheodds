@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Scroll of"
+  ],
+  "tasks": {
+    "grace": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:fabulous_scroll",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Grace of the Creator",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:fabulous_scroll",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Grace of the Creator is a better version of Gift of the Heaven. No longer are you held captive to the area of Beacons, the world is your skys for the taking! Still takes XP though."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -215,
+          10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:fabulous_scroll",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Grace of the Creator"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

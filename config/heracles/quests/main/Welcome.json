@@ -1,0 +1,51 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Played the modpack": {
+      "title": "Played the Modpack",
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Welcome to Maul the Odds\n"
+    },
+    "description": [
+      "Welcome to Maul The Odds! The April Fools modpack with many fun surprises for you to discover. No, I can't spoil them... You'll have to just play it and find them yourselves! There is no end goal in this modpack besides being happier than you were before you played it."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          0,
+          -25
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:grass_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Welcome"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

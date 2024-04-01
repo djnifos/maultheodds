@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Power!"
+  ],
+  "tasks": {
+    "graphite": {
+      "type": "heracles:item",
+      "item": "biggerreactors:graphite_ingot",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Burn some coal",
+      "icon": {
+        "item": {
+          "id": "biggerreactors:graphite_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "graphite": {
+      "title": "You'll need a lot for a good reactor",
+      "icon": {
+        "item": {
+          "id": "biggerreactors:graphite_ingot",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "biggerreactors:graphite_ingot",
+        "count": 32
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The best Energy source, Nuclear Reactors. Don't worry these won't blow up (Yet)."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -50,
+          150
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "biggerreactors:reactor_terminal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Reactors"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

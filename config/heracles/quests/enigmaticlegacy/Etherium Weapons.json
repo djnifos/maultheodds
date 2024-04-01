@@ -1,0 +1,65 @@
+{
+  "dependencies": [
+    "Weapons"
+  ],
+  "tasks": {
+    "Eth": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:etherium_axe",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Etherium Waraxe",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:etherium_axe",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Etherium Weapons, Tools, and Armor aren't like normal iron or diamond ones, these have special affects. The armor becomes invisible, the sword can teleport you, and the tools can mine or act in a 3x3 area. If you want the next weapon though you'll need the Etherium Waraxe."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -100,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:etherium_axe",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Etherium Weapons"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

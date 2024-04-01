@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Scrolls"
+  ],
+  "tasks": {
+    "scroll of ages": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:xp_scroll",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Scroll of Ageless Wisdom",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:xp_scroll",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This scroll is much more active than the other ones. It has 3 modes: Absorb, Extract, and Deactive. When Absorb mode is on it will hold your XP in it. Extract will give you the XP in it. Deactive will make it not touch your XP. Safe place to not lose your XP on death!"
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -190,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:xp_scroll",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Scroll of Ageless Wisdom"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

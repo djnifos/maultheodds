@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Spellstones"
+  ],
+  "tasks": {
+    "eye": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:eye_of_nebula",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Eye of the Nebula",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:eye_of_nebula",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Uncraftable"
+    },
+    "description": [
+      "Any Mages, Witches, or Warlocks will love this one. It increases magic damage and magic resistance. It also allows for a lot of teleporting: with a chance of teleporting away from an attack, no damage from Ender Pearl, and its active ability which teleports you behind a mob you are looking at."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -225,
+          -75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:eye_of_nebula",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Eye of the Nebula"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
