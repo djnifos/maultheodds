@@ -4,32 +4,26 @@
   ],
   "tasks": {
     "ring": {
-      "type": "heracles:item",
-      "item": "enigmaticlegacy:cursed_ring",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "My precious!!!",
+      "title": "My Precious!!!",
       "icon": {
         "item": {
           "id": "enigmaticlegacy:cursed_ring",
           "count": 1
         },
         "type": "heracles:item"
-      }
+      },
+      "type": "heracles:check"
     },
     "amulet": {
-      "type": "heracles:item",
-      "item": "enigmaticlegacy:enigmatic_amulet",
-      "amount": 1,
-      "collection": "AUTOMATIC",
-      "title": "Better than Corail?",
+      "title": "Enigmatic Legacy I mean Amulet",
       "icon": {
         "item": {
           "id": "enigmaticlegacy:enigmatic_amulet",
           "count": 1
         },
         "type": "heracles:item"
-      }
+      },
+      "type": "heracles:check"
     }
   },
   "rewards": {
