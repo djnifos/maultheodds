@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "ring",
+    "Guides and Tomes"
+  ],
+  "tasks": {
+    "twist": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:the_twist",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "The Twist",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:the_twist",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Twist works similar to a sword but much more book-like. It will make you do 3 times the damage to Bosses (Wither, Ender Dragon, and Warden) and 3 times knockback to players. It can be enchanted with sword Enchantments, You will need to wear the Ring of Seven Curses to use it though."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -15,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:the_twist",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Twist"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

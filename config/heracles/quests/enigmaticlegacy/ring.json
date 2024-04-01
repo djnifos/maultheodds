@@ -1,0 +1,41 @@
+{
+  "dependencies": [
+    "start"
+  ],
+  "tasks": {},
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Uncraftable"
+    },
+    "description": [
+      "The Ring of Seven Curses is an important item for Enigmatic Legacy. You'll spawn with it and keep it forever. You need to wear it to use certain items."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -100,
+          -150
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:cursed_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ring of Seven Curses"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

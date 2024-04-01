@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Spellstones"
+  ],
+  "tasks": {
+    "will": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:ocean_stone",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Will of the Ocean",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:ocean_stone",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Uncraftable"
+    },
+    "description": [
+      "Don't ever have to die to Ocean Monuments anymore! The Will of the Ocean will give you Water Breathing, Night Vision, and Aqua Affinity in water. You'll also swim faster, not get affected by oceans gravity, and deal more damage to aquatic mobs. It's active ability will start a Thunderstorm for XP."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -250,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:ocean_stone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Will of the Ocean"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

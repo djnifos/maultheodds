@@ -1,0 +1,75 @@
+{
+  "dependencies": [
+    "Item Generation"
+  ],
+  "tasks": {
+    "inventory": {
+      "type": "heracles:item",
+      "item": "inventorypets:nugget_coal",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Nuggets make Inventory Pets!",
+      "icon": {
+        "item": {
+          "id": "inventorypets:nugget_coal",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "inventory": {
+      "title": "Bananananananananananana",
+      "icon": {
+        "item": {
+          "id": "inventorypets:banana",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "inventorypets:banana",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Finally friends"
+    },
+    "description": [
+      "Inventory Pets work similar to other Rings or Amulets you can use. Keep them in your inventory and they'll give you special effects. They can be either crafted or found. (They're also very cute!)"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          100,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "inventorypets:pet_meta",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Inventory Pets"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

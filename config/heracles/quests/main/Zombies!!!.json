@@ -1,0 +1,79 @@
+{
+  "dependencies": [
+    "Adventure time"
+  ],
+  "tasks": {
+    "zombie": {
+      "icon": {
+        "item": {
+          "id": "minecraft:zombie_head",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "entity": {
+        "type": "minecraft:zombie"
+      },
+      "amount": 1,
+      "title": "brainsssss",
+      "type": "heracles:kill_entity"
+    }
+  },
+  "rewards": {
+    "crowbar": {
+      "title": "Ready to fight!",
+      "icon": {
+        "item": {
+          "id": "zombie_extreme:crowbar",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "zombie_extreme:crowbar",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "DayZ L4D "
+    },
+    "description": [
+      "Zombie Extreme completely overhauls zombies in Minecraft. Makes it feel so much more like Walking Dead/Last of Us/DayBreak."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          100,
+          150
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:zombie_head",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Zombies!!!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

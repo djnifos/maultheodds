@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "start"
+  ],
+  "tasks": {
+    "ringaling": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:iron_ring",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Ring-a-ling",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:iron_ring",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Bling I mean rings! Work as special armor. They go into one of the Ring Curios slots and will give special effects. All of these (besides the one you get off spawn) can be crafted. They all start with the Iron Ring."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          0,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:iron_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Rings"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

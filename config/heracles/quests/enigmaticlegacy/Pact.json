@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "Dark scroll",
+    "ring"
+  ],
+  "tasks": {
+    "pact": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:avarice_scroll",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Pact of Infinite Avarice",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:avarice_scroll",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Pact of Infinite Avarice acts like a boost to Bargain levels. Piglins will be neutral with you and will give you much better barters. Villagers will also have better discounts and emeralds become much easier to get. You will need the Ring of Seven Curses to use this."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -215,
+          35
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:avarice_scroll",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pact of Infinite Avarice"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "dependencies": [
+    "Put a Ring on it"
+  ],
+  "tasks": {
+    "swords": {
+      "type": "heracles:item",
+      "item": "minecraft:iron_sword",
+      "nbt": {
+        "Damage": 0
+      },
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Sword!",
+      "icon": {
+        "item": {
+          "id": "minecraft:iron_sword",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "sword!": {
+      "title": "Iron Longsword",
+      "icon": {
+        "item": {
+          "id": "simplyswords:iron_longsword",
+          "count": 1,
+          "nbt": {
+            "Damage": 0
+          }
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "simplyswords:iron_longsword",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Swords\nSwords\nSwords\nSwords\nSwords"
+    },
+    "description": [
+      "Swords, swords swords swords; swords, swords, Swords. Swords swords swords, swords Swords SWORDS **SWORDS**."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          75,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "simplyswords:diamond_longsword",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Swords"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

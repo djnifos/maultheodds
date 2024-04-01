@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Rings"
+  ],
+  "tasks": {
+    "exquisite": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:golden_ring",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Exquisite Ring",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:golden_ring",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Exquisite Ring is a simple but nice ring. While worn it makes Piglins neutral same as wearing gold armor. It also gives +1 Luck! It's crafted by combining Gold Ingots and Nuggets with an Iron Ring."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          25,
+          -75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:golden_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Exquisite Ring"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

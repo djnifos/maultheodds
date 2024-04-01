@@ -1,0 +1,53 @@
+{
+  "dependencies": [
+    "Put a Ring on it"
+  ],
+  "tasks": {
+    "machine": {
+      "title": "know that machines exist",
+      "icon": {
+        "item": {
+          "id": "clickmachine:auto_clicker",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "This is a Minecraft Modpack of course they'll be Tech and Machine mods. There's not many but the ones that are here are still awesome and worth trying. Sorry Create enjoyers might not be the pack for you. :("
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -50,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "clickmachine:auto_clicker",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Machines and Tech"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

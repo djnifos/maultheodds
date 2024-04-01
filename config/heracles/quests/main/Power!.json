@@ -1,0 +1,67 @@
+{
+  "dependencies": [
+    "Put a Ring on it"
+  ],
+  "tasks": {
+    "powah": {
+      "title": "Power!",
+      "icon": {
+        "item": {
+          "id": "zombie_extreme:energy_battery",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "pow": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 1,
+      "title": "{filling the spot}",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Just because there's less Machines doesn't mean you won't need power. There's less power making mods but we still have some nice ones! It wouldn't be a Minecraft modpack without a Nuclear Reactor."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -50,
+          100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "zombie_extreme:energy_battery",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Power!"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

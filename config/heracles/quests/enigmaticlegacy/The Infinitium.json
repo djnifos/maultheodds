@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "ring",
+    "The Twist"
+  ],
+  "tasks": {
+    "infinity": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:the_infinitum",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "The Infinitum",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:the_infinitum",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Infinitum is a much more powerful Twist. It does less damage and knockback, but also gives lifesteal and debuffs. You'll need to sacrifice a lot of your time in game with the Ring of Seven Curses to use it though or else you'll be the one suffering."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          10,
+          -15
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:the_infinitum",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Infinitum"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

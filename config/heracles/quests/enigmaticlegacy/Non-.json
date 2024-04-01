@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Spellstones"
+  ],
+  "tasks": {
+    "non": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:the_cube",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Non-Euclidean Cube",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:the_cube",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Uncraftable"
+    },
+    "description": [
+      "Where do I even start with this one? For 1. It's active ability teleports you to somewhere in either the Overworld, Nether, or End. 2. It gives better swimming and sprinting speed, better mining, better attacks, and more luck and fortune. 3. It gives immunity to all debuffs, all damage but physical, projectile, explosion, and magic. 4. All attacks over 150 damage don't work on you and all lethal hits will leave you on 1 health. When at 1 health you have 1/3 chance to get more health and buffs after being attacked. I think we can all agree this one seems to be the best!"
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -250,
+          -75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:the_cube",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Non-Euclidean Cube"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "dependencies": [
+    "Put a Ring on it"
+  ],
+  "tasks": {
+    "items": {
+      "title": "Item Generation",
+      "icon": {
+        "item": {
+          "id": "lucky:lucky_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "type": "heracles:check"
+    }
+  },
+  "rewards": {
+    "luck": {
+      "title": "lucky",
+      "icon": {
+        "item": {
+          "id": "lucky:lucky_block",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "lucky:lucky_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Oh boy free stuff!"
+    },
+    "description": [
+      "Like most Modpacks, **Maul The Odds** has many forms of Item Generation. These are just a little more fun and free than the ATM ones!"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          50,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "lucky:lucky_block",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Item Generation"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

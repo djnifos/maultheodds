@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "start"
+  ],
+  "tasks": {
+    "dark scroll": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:darkest_scroll",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Darkest Scroll",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:darkest_scroll",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Uncraftable"
+    },
+    "description": [
+      "The Darkest Scroll is much more rare than normal scrolls, but also more powerful. These can only be found in chests and can not be crafted."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -240,
+          35
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:darkest_scroll",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Darkest Scroll"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

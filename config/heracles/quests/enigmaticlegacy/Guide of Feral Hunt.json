@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Guides and Tomes"
+  ],
+  "tasks": {
+    "guide of hunt": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:hunter_guidebook",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Guide to Feral Hunt",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:hunter_guidebook",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Guide to Feral Hunt works as protection for your pets. When within 24 blocks of you when the pets are hurt the damage instead goes to you, if the guide is in your inventory. When you have the other Guide as well the damage will be lowered by 50%."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -65,
+          -15
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:hunter_guidebook",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Guide to Feral Hunt"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

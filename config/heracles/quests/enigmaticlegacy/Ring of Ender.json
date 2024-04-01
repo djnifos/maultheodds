@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Rings"
+  ],
+  "tasks": {
+    "ender ring": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:ender_ring",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Ring of Ender",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:ender_ring",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Ring of Ender can be used to access your Ender Chest on the go. From anywhere, either holding the Ring or equipping it."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          50,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:ender_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Ring of Ender"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Scrolls"
+  ],
+  "tasks": {
+    "gift": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:heaven_scroll",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Gift of the Heaven",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:heaven_scroll",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Gift of the Heaven gives you creative flight while in the range of a beacon. It will consume XP in exchange though!"
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -190,
+          -15
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:heaven_scroll",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Gift of the Heaven"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Spellstones"
+  ],
+  "tasks": {
+    "pearl": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:void_pearl",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Pearl of the Void",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:void_pearl",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Uncraftable"
+    },
+    "description": [
+      "The Pearl of the Void makes it so you don't need air to breathe. It also makes it so no debuffs affect you anymore. You will also give mobs you attacked withering and there's a 35% chance you won't die to lethal attacks."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -225,
+          -99
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:void_pearl",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Pearl of the Void"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

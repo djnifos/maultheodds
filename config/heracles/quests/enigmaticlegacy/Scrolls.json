@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "start"
+  ],
+  "tasks": {
+    "scrolls": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:thicc_scroll",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Scrolls",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:thicc_scroll",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Scrolls work like Spellstones or Rings or both, they can be equipped into their curios slot of Arcane Scrolls. Some are passive and some have to be used."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -165,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:thicc_scroll",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Scrolls"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

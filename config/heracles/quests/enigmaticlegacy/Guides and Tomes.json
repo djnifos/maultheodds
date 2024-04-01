@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "start"
+  ],
+  "tasks": {
+    "book": {
+      "type": "heracles:item",
+      "item": "minecraft:book",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Write your guides in here",
+      "icon": {
+        "item": {
+          "id": "minecraft:book",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "These are not normal books for you to write about your feelings, no these are special and powerful! The guides stay in your inventory and can be used actively and passively. The tomes work with enchantments. And the last two will be a surprise for you to find out how they work... warning they're very powerful."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -40,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "minecraft:book",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Guides, Tomes, and Book Weapons"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

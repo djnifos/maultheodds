@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Guides and Tomes"
+  ],
+  "tasks": {
+    "guide ": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:animal_guidebook",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Guide to Animal Companionship",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:animal_guidebook",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Guide of Animal Companionship is a book perfect for PETA. While in your inventory you won't be able to hurt animals (other mobs still can). And you can right click animals with it to see if they're tamable."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -15,
+          -65
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:animal_guidebook",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Guide of Animal Companionship"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

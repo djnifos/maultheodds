@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "magnetic ring"
+  ],
+  "tasks": {
+    "dislocation": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:super_magnet_ring",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Dislocation Ring",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:super_magnet_ring",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Dislocation Ring does exactly what the Magnetic Ring but better! Wear it and items will come to you from a 16 block range."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          50,
+          -150
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:super_magnet_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Dislocation Ring"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

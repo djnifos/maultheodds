@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Rings"
+  ],
+  "tasks": {
+    "magnetic ring": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:magnet_ring",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Magnetic Ring",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:magnet_ring",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Magnetic Ring is quite simple, when worn all items in a 8 block range will come toward you similar to how EXP does. You can hold shift to disable that."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          25,
+          -125
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:magnet_ring",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Magnetic Ring"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

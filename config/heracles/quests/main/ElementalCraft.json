@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Machines and Tech"
+  ],
+  "tasks": {
+    "crystal": {
+      "type": "heracles:item",
+      "item": "elementalcraft:inert_crystal",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "The start of Elements",
+      "icon": {
+        "item": {
+          "id": "elementalcraft:inert_crystal",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "inert": {
+      "title": "More!",
+      "icon": {
+        "item": {
+          "id": "elementalcraft:inert_crystal",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "elementalcraft:inert_crystal",
+        "count": 8
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "The four nations lived together in harmony..."
+    },
+    "description": [
+      "ElementalCraft is in the other modpacks so I shouldn't need to explain it too much. The mod mostly focuses on the Elements; Fire, Earth, Water, and Air and the machines that use them."
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -100,
+          -50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "elementalcraft:pure_element_holder",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "ElementalCraft"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

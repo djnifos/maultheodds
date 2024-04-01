@@ -1,0 +1,72 @@
+{
+  "dependencies": [
+    "Machines and Tech"
+  ],
+  "tasks": {
+    "shard": {
+      "type": "heracles:item",
+      "item": "mm_mining:item_ancient_shard_tiny",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "",
+      "icon": {
+        "item": {
+          "id": "mm_mining:item_ancient_shard_tiny",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "shard": {
+      "title": "Tiny Ancient Shard",
+      "icon": {
+        "item": {
+          "id": "mm_mining:item_ancient_shard_tiny",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "mm_mining:item_ancient_shard_tiny",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Multipart Machines gives multiple different Multiblocks you can make. Like MineColonies without the Colonists. So its better!"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -99,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "mm_mining:str_mining_machine_digital",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Multipart Machines"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

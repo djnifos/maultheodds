@@ -1,0 +1,74 @@
+{
+  "dependencies": [
+    "Put a Ring on it"
+  ],
+  "tasks": {
+    "hell": {
+      "icon": {
+        "item": {
+          "id": "minecraft:netherrack",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "from": "minecraft:the_nether",
+      "to": "minecraft:the_nether",
+      "title": "Enter Hell",
+      "type": "heracles:changed_dimension"
+    }
+  },
+  "rewards": {
+    "energy": {
+      "title": "Argent Energy",
+      "icon": {
+        "item": {
+          "id": "doom:argent_energy",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "doom:argent_energy",
+        "count": 3
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "You can run Doom on Minecraft"
+    },
+    "description": [
+      "The Nether just got a bit more dangerous. Journey into Hell to rip and tear. Many more demons and monsters to fight but also much more weapons and armor to use. Hope you're ready to fight!"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          -75,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "doom:demonic_doom_helmet",
+        "count": 1,
+        "nbt": {
+          "Damage": 0
+        }
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Doom"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Weapons"
+  ],
+  "tasks": {
+    "judge": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:the_judgement",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "The Judgement",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:the_judgement",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {
+    "exp": {
+      "icon": {
+        "item": {
+          "id": "minecraft:air",
+          "count": 0
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "LEVEL",
+      "amount": 30,
+      "title": "EXPPP",
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Uncraftable"
+    },
+    "description": [
+      "Nobody seems to know where this sword comes from or how to get it, but it's stronger than anything I've ever seen! It deals 1000 damage and does that to all mobs in a 64 block radius. It has a normal mode and clear drop mode. Normal mode just kills everything and keeps their drops. Clear drop mode does as the name suggests, it can switched by shift right clicking. If you find out how to get it please let me know!"
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -99,
+          101
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:the_judgement",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "The Judgement"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

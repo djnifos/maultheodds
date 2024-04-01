@@ -1,0 +1,70 @@
+{
+  "dependencies": [
+    "Adventure time"
+  ],
+  "tasks": {
+    "caves": {
+      "title": "Caves",
+      "icon": {
+        "item": {
+          "id": "minecraft:stone",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "biomes": "#alexscaves:alexs_caves_biomes",
+      "type": "heracles:biome"
+    }
+  },
+  "rewards": {
+    "pick": {
+      "title": "You'll need these",
+      "icon": {
+        "item": {
+          "id": "minecraft:torch",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "item": {
+        "id": "minecraft:torch",
+        "count": 64
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "1.17 took too long"
+    },
+    "description": [
+      "Dripstone and Lush Caves not enough for you? Alex didn't think so, so he made a few more. Toxic Cave, Primordial Cave, Magnetic Cave, Abyssal Chasm, and Forlorn Hollows. Can you discover them all?"
+    ],
+    "groups": {
+      "Main": {
+        "position": [
+          50,
+          150
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "alexscaves:dinosaur_train",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Alex Caves"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

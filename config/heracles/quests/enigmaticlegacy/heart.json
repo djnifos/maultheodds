@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "Spellstones"
+  ],
+  "tasks": {
+    "heart": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:golem_heart",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Heart of the Golem",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:golem_heart",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Uncraftable"
+    },
+    "description": [
+      "The Heart of the Golem will act as extra armor. Similar to Netherite it negates knockback, just much more. It also makes it so no pressure or pricking will hurt you. If you don't have armor it will fill in for that with more armor points."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -200,
+          -125
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:golem_heart",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Heart of the Golem"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

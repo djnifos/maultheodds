@@ -1,0 +1,57 @@
+{
+  "dependencies": [
+    "Dark scroll",
+    "ring"
+  ],
+  "tasks": {
+    "curse": {
+      "type": "heracles:item",
+      "item": "enigmaticlegacy:cursed_scroll",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Scroll of a Thousand Curses",
+      "icon": {
+        "item": {
+          "id": "enigmaticlegacy:cursed_scroll",
+          "count": 1
+        },
+        "type": "heracles:item"
+      }
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Scroll of a Thousand Curses will make blessings from curses. You will get more Mining Speed, Attack Damage, and Health Regen from the scroll. These stats get multiplied for each curse you have. Talking about curses you'll need the Ring of Seven Curses to use this! I see why they call it a Thousand Curses now."
+    ],
+    "groups": {
+      "Enigmatic Legacy": {
+        "position": [
+          -240,
+          10
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "enigmaticlegacy:cursed_scroll",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Scroll of a Thousand Curses"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
