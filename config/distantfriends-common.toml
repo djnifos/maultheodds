@@ -2,7 +2,7 @@
 #Friends
 [friends]
 	#A list of users who can be chosen when it spawns a distant friend
-	friends = ["darkosto","whatthedrunk","mutantgumdrop","Sips_","xephos","honeydew","direwolf20","pilpoh","Israphel","Pahimar"]
+	friends = ["darkosto","whatthedrunk","mutantgumdrop","Sips_","xephos","honeydew","direwolf20","pilpoh","Israphel","Pahimar","Mitchell52","djnifos","chosenarchitect","RadzRatz","LobsterJonn"]
 	#Add the players from the whitelist to the Friends list [default: true]
 	addWhitelistPlayers = true
 
