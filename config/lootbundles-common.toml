@@ -14,5 +14,5 @@
 	#Range: > 0
 	maxLootAmount = 4
 	#List of strings that an item name must not contain in order for it to be considered a valid loot item. Item name can be partial and can contain the mod id as well to disallow an entire mods items.
-	disallowedItemNames = ["creative", "spawn_egg","heart_of_creation","loot_generator","item_selector","fluid_selector","energy_selector","limb"]
+	disallowedItemNames = ["creative", "simplyswords", "inventorypets", "spawn_egg", "enigmatic", "heart_of_creation", "loot_generator", "item_selector", "fluid_selector", "energy_selector", "limb"]
 
