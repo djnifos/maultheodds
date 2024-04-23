@@ -1,0 +1,9 @@
+{
+    "replace": false,
+    "entries": [
+        "lootbundles:entity_loot_fragment",
+        "lootbundles:entity_loot_bundle",
+        "lootbundles:slime_cheese_what",
+        "lootbundles:slime_cheese_what_frag"
+    ]
+}
