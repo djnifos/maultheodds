@@ -1,0 +1,56 @@
+{
+  "dependencies": [
+    "transmutation table"
+  ],
+  "tasks": {
+    "dwd": {
+      "type": "heracles:item",
+      "item": "projecte:transmutation_tablet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "tra": {
+      "item": {
+        "id": "projecte:transmutation_table",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "The Transmutation Tablet alloes you to access the transmutation interface right from your inventory!"
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          -40,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:transmutation_tablet",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Transmutation Tablet"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

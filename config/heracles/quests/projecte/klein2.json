@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "klein1"
+  ],
+  "tasks": {
+    "gf": {
+      "type": "heracles:item",
+      "item": "projecte:klein_star_zwei",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "2": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Stores more EMC than the last."
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          5,
+          25
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:klein_star_zwei",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Klein Star Zwei"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

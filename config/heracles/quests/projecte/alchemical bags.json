@@ -1,0 +1,62 @@
+{
+  "dependencies": [
+    "alchemical chest"
+  ],
+  "tasks": {
+    "gvf": {
+      "type": "heracles:item",
+      "item": "#projecte:alchemical_bags",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "Alchemical Bags"
+    }
+  },
+  "rewards": {
+    "e": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "es": {
+      "item": {
+        "id": "projecte:alchemical_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Now in the form of a bag."
+    },
+    "description": [
+      "Alchemical Bags are portable alchemical chest, basically just big backpacks!"
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          120,
+          -260
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:white_alchemical_bag",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Alchemical Bags"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

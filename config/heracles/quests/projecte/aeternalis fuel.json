@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "mobius fuel"
+  ],
+  "tasks": {
+    "ae": {
+      "type": "heracles:item",
+      "item": "projecte:aeternalis_fuel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "aeewe": {
+      "icon": {
+        "item": {
+          "id": "minecraft:experience_bottle",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Craft 4 Mobius Fuel with your Philosopher's Stone to make Aeternalis Fuel. This can be learnt using your Transmutation Table."
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          30,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:aeternalis_fuel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Aeternalis Fuel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

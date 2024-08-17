@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "philosopher's stone"
+  ],
+  "tasks": {
+    "A": {
+      "type": "heracles:item",
+      "item": "projecte:alchemical_coal",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "00": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Better Coal"
+    },
+    "description": [
+      "Craft 4 Coal with your Philosopher's Stone to make Alchemical Coal. This can be learnt using your Transmutation Table."
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          -100,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:alchemical_coal",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Alchemical Coal"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

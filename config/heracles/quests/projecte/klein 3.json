@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "klein2"
+  ],
+  "tasks": {},
+  "rewards": {
+    "e": {
+      "xptype": "POINTS",
+      "amount": 200,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Stores more EMC than the last."
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          30,
+          25
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:klein_star_drei",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Klein Star Drei"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
