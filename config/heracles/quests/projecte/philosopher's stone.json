@@ -1,0 +1,60 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "Philosopher's Stone": {
+      "type": "heracles:item",
+      "item": "projecte:philosophers_stone",
+      "amount": 1,
+      "collection": "AUTOMATIC",
+      "title": "You can just craft a Philosopher's Stone :)"
+    }
+  },
+  "rewards": {
+    "100": {
+      "icon": {
+        "item": {
+          "id": "minecraft:experience_bottle",
+          "count": 1
+        },
+        "type": "heracles:item"
+      },
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Just make a Philosopher's Stone!"
+    },
+    "description": [
+      "The Philosopher's Stone is very cheap and has many uses. It can be right-clicked on some blocks to turn those blocks into other blocks, for example if you right-click on dirt with your Philosopher's Stone, the dirt will turn into sand. You can also click 'c' by default, (this will have conflicts) to open the crafting table interface for portable crafting. It also has other uses and can be used to craft a Transmutation Table. We will mainly be using it to craft things, luckily it doesn't get used up when used in a recipe!"
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          -160,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:philosophers_stone",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/octagons.png",
+    "title": {
+      "translate": "Philosopher's Stone"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

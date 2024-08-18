@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "klein4"
+  ],
+  "tasks": {},
+  "rewards": {
+    "d": {
+      "xptype": "POINTS",
+      "amount": 400,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Stores more EMC than the last."
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          30,
+          50
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:klein_star_sphere",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Klein Star Sphere"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

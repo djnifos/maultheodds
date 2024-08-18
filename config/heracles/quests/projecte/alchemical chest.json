@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "covalence dust"
+  ],
+  "tasks": {
+    "ad": {
+      "type": "heracles:item",
+      "item": "projecte:alchemical_chest",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "d": {
+      "item": {
+        "id": "minecraft:chest",
+        "count": 10
+      },
+      "type": "heracles:item"
+    },
+    "e": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "A chest, but bigger."
+    },
+    "description": [
+      "The alchemical chest is a bigger chest.. but most importantly, it will be used for some important crafting recipes."
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          120,
+          -200
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:alchemical_chest",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Alchemical Chest"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

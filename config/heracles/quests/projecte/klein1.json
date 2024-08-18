@@ -1,0 +1,55 @@
+{
+  "dependencies": [
+    "mobius fuel",
+    "transmutation table"
+  ],
+  "tasks": {
+    "klein1": {
+      "type": "heracles:item",
+      "item": "projecte:klein_star_ein",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "w": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Storing EMC!"
+    },
+    "description": [
+      "Klein Stars work as batteries for EMC! How much EMC they can store depends on the tier."
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          30,
+          0
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:klein_star_ein",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Klein Star Ein"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

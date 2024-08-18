@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "aeternalis fuel"
+  ],
+  "tasks": {
+    "dark": {
+      "type": "heracles:item",
+      "item": "projecte:dark_matter",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "1": {
+      "xptype": "POINTS",
+      "amount": 500,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Dark Matter is used in a bunch of useful crafting recipes!"
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          100,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:dark_matter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Dark Matter"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

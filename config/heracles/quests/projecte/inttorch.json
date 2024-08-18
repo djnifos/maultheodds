@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "philosopher's stone"
+  ],
+  "tasks": {
+    "inttorch": {
+      "type": "heracles:item",
+      "item": "projecte:interdiction_torch",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "inttorch": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Bye, bye mobs!"
+    },
+    "description": [
+      "This torch pushes all hostile mobs away within a 5 block radius!"
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          -220,
+          -41
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:interdiction_torch",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/rounded_squares.png",
+    "title": {
+      "translate": "Interdiction Torch"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

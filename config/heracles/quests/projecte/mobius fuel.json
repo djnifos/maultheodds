@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "alchemical coal"
+  ],
+  "tasks": {
+    "a": {
+      "type": "heracles:item",
+      "item": "projecte:mobius_fuel",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "e": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "No, it's not Owen Wilson..."
+    },
+    "description": [
+      "Craft 4 Alchemical Coal with your Philosopher's Stone to make Mobius Fuel (not the strip or the guy from Loki). This can be learnt using your Transmutation Table."
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          -40,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:mobius_fuel",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Mobius Fuel"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

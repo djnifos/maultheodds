@@ -1,0 +1,54 @@
+{
+  "dependencies": [
+    "klein5"
+  ],
+  "tasks": {},
+  "rewards": {
+    "d": {
+      "item": {
+        "id": "projecte:high_covalence_dust",
+        "count": 64
+      },
+      "type": "heracles:item"
+    },
+    "w": {
+      "xptype": "POINTS",
+      "amount": 500,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Stores the most EMC!"
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          5,
+          75
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:klein_star_omega",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Klein Star Omega"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

@@ -1,0 +1,47 @@
+{
+  "dependencies": [
+    "dark matter"
+  ],
+  "tasks": {},
+  "rewards": {
+    "e": {
+      "xptype": "POINTS",
+      "amount": 1000,
+      "type": "heracles:xp"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Red Matter has lots of EMC and can be used in some awesome crafting recipes!"
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          200,
+          -80
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:red_matter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Red Matter"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

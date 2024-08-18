@@ -1,0 +1,71 @@
+{
+  "dependencies": [],
+  "tasks": {
+    "da": {
+      "type": "heracles:item",
+      "item": "projecte:medium_covalence_dust",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "dadw": {
+      "type": "heracles:item",
+      "item": "projecte:high_covalence_dust",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "gf": {
+      "type": "heracles:item",
+      "item": "projecte:low_covalence_dust",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "5": {
+      "xptype": "POINTS",
+      "amount": 50,
+      "type": "heracles:xp"
+    },
+    "di": {
+      "item": {
+        "id": "minecraft:diamond",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Covalence Dusts can be used in many recipes."
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          40,
+          -200
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:high_covalence_dust",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Covalence Dusts"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

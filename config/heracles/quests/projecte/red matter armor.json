@@ -1,0 +1,79 @@
+{
+  "dependencies": [
+    "red matter"
+  ],
+  "tasks": {
+    "re": {
+      "type": "heracles:item",
+      "item": "projecte:rm_helmet",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "dw": {
+      "type": "heracles:item",
+      "item": "projecte:rm_boots",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "d": {
+      "type": "heracles:item",
+      "item": "projecte:rm_leggings",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    },
+    "e": {
+      "type": "heracles:item",
+      "item": "projecte:rm_chestplate",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "5": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "re": {
+      "item": {
+        "id": "projecte:red_matter",
+        "count": 5
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Red Matter Armour is better than Dark Matter."
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          250,
+          -60
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:rm_chestplate",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Red Matter Armour"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

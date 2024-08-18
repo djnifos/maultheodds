@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "red matter"
+  ],
+  "tasks": {
+    "r": {
+      "type": "heracles:item",
+      "item": "projecte:rm_pick",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "d": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "re": {
+      "item": {
+        "id": "projecte:red_matter",
+        "count": 1
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "text": ""
+    },
+    "description": [
+      "Red Matter Tools are better than Dark Matter."
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          250,
+          -100
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:rm_pick",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Red Matter Tools"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

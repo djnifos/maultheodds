@@ -1,0 +1,48 @@
+{
+  "dependencies": [
+    "dark matter"
+  ],
+  "tasks": {
+    "da": {
+      "type": "heracles:item",
+      "item": "projecte:dm_furnace",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {},
+  "display": {
+    "subtitle": {
+      "translate": "Better Smelting!"
+    },
+    "description": [
+      "It can use coal or EMC (from a Klein Star) to smelt items! Why is this good? Well, it has a chance to double your ores!"
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          130,
+          -40
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:dm_furnace",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Dark Matter Furnace"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}

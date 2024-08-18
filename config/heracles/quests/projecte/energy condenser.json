@@ -1,0 +1,61 @@
+{
+  "dependencies": [
+    "alchemical chest"
+  ],
+  "tasks": {
+    "ene": {
+      "type": "heracles:item",
+      "item": "projecte:condenser_mk1",
+      "amount": 1,
+      "collection": "AUTOMATIC"
+    }
+  },
+  "rewards": {
+    "d": {
+      "xptype": "POINTS",
+      "amount": 100,
+      "type": "heracles:xp"
+    },
+    "dwa": {
+      "item": {
+        "id": "projecte:high_covalence_dust",
+        "count": 40
+      },
+      "type": "heracles:item"
+    }
+  },
+  "display": {
+    "subtitle": {
+      "translate": "Condensing Energy!"
+    },
+    "description": [
+      "The energy condenser can transform items from one into the other. First, put the item you want to trade for in to the top left slot. Then, place any items with an EMC value (like covalence dust) into the main inventory of the energy condenser, and they will be converted! Obsolete when compared to the Transmutation Table."
+    ],
+    "groups": {
+      "ProjectE": {
+        "position": [
+          200,
+          -200
+        ]
+      }
+    },
+    "icon": {
+      "item": {
+        "id": "projecte:condenser_mk1",
+        "count": 1
+      },
+      "type": "heracles:item"
+    },
+    "icon_background": "heracles:textures/gui/quest_backgrounds/default.png",
+    "title": {
+      "translate": "Energy Condenser"
+    }
+  },
+  "settings": {
+    "unlockNotification": false,
+    "showDependencyArrow": true,
+    "repeatable": false,
+    "individual_progress": false,
+    "hidden": "LOCKED"
+  }
+}
